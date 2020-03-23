@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-22T22:01:27 PDT" name="Suite" finished-at="2020-03-22T22:02:05 PDT" duration-ms="38168">
+    <groups>
+    </groups>
+    <test started-at="2020-03-22T22:01:27 PDT" name="Test" finished-at="2020-03-22T22:02:05 PDT" duration-ms="38168">
+      <class name="testCases.ValidateTitle">
+        <test-method is-config="true" signature="initalizeTest()[pri:0, instance:testCases.ValidateTitle@2d9d4f9d]" started-at="2020-03-22T22:01:36 PDT" name="initalizeTest" finished-at="2020-03-22T22:01:43 PDT" duration-ms="6481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalizeTest -->
+        <test-method signature="BasePageNavigation()[pri:0, instance:testCases.ValidateTitle@2d9d4f9d]" started-at="2020-03-22T22:01:43 PDT" name="BasePageNavigation" finished-at="2020-03-22T22:01:47 PDT" duration-ms="4364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ValidateTitle@2d9d4f9d]" started-at="2020-03-22T22:02:02 PDT" name="tearDown" finished-at="2020-03-22T22:02:05 PDT" duration-ms="2875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.ValidateTitle -->
+      <class name="testCases.HomePageTest">
+        <test-method is-config="true" signature="intializeTest()[pri:0, instance:testCases.HomePageTest@4034c28c]" started-at="2020-03-22T22:01:27 PDT" name="intializeTest" finished-at="2020-03-22T22:01:36 PDT" duration-ms="9035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeTest -->
+        <test-method signature="TestBasePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HomePageTest@4034c28c]" started-at="2020-03-22T22:01:47 PDT" name="TestBasePageNavigation" data-provider="getData" finished-at="2020-03-22T22:01:58 PDT" duration-ms="10401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Useremail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Real usr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestBasePageNavigation -->
+        <test-method signature="TestBasePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.HomePageTest@4034c28c]" started-at="2020-03-22T22:01:58 PDT" name="TestBasePageNavigation" data-provider="getData" finished-at="2020-03-22T22:02:02 PDT" duration-ms="4941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonUseremail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[banned user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestBasePageNavigation -->
+      </class> <!-- testCases.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
